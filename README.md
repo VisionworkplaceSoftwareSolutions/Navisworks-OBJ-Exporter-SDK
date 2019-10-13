@@ -10,8 +10,7 @@ Navisworks to OBJ SDK Setup:
     Visionworkplace_Navisworks_OBJ.Settings.getSettings.ExportSelecterEntities = false;
     Visionworkplace_Navisworks_OBJ.Settings.getSettings.Properties = true;
 	
-    //Navisworks to OBJ Export Apis
-    //Create the object of 'VisionworkplaceOBJ' class and the call 'ConvertToOBJ' function
+    //Navisworks to OBJ Export Apis. Create the object of 'VisionworkplaceOBJ' class and the call 'ConvertToOBJ' function
     Visionworkplace_Navisworks_OBJ.VisionworkplaceOBJ objConverter = new Visionworkplace_Navisworks_OBJ.VisionworkplaceOBJ();
     objConverter.ConvertToOBJ("E:\\Test\\Navisworks_OBJ.obj");
     ---------------------------------------
