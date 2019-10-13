@@ -4,6 +4,7 @@ Navisworks to OBJ SDK Setup:
 3. Add referance of above dependent dlls in your project using Project->Referancea->Add Referance...
 4. Add this code snippet to your .cs file,
     ---------------------------------------
+    ```
     //Setting Apis
     Visionworkplace_Navisworks_OBJ.Settings.getSettings.Y_Z_Flip = true;
     Visionworkplace_Navisworks_OBJ.Settings.getSettings.ShowMessageBox = false;
@@ -13,6 +14,7 @@ Navisworks to OBJ SDK Setup:
     //Navisworks to OBJ Export Apis. Create the object of 'VisionworkplaceOBJ' class and the call 'ConvertToOBJ' function
     Visionworkplace_Navisworks_OBJ.VisionworkplaceOBJ objConverter = new Visionworkplace_Navisworks_OBJ.VisionworkplaceOBJ();
     objConverter.ConvertToOBJ("E:\\Test\\Navisworks_OBJ.obj");
+    ```
     ---------------------------------------
 For any other information, please visit our website: www.visionworkplace.com, or contact support@visionworkplace.com.
 
