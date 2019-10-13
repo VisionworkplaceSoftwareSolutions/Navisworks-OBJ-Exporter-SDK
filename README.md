@@ -1,8 +1,7 @@
 Navisworks to OBJ SDK Setup:
-1. Clone the repo.
-2. Open readme.md. And download the dependent dlls from the mentioned link.
-3. Add referance of above dependent dlls in your project using Project->Referancea->Add Referance...
-4. Add this code snippet to your .cs file,
+1. Download the dependent dlls from the mentioned link.
+2. Add referance of above dependent dlls in your project using Project->Referancea->Add Referance...
+3. Add this code snippet to your .cs file,
     ---------------------------------------
     ```
     //Setting Apis
